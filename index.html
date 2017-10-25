@@ -6,13 +6,13 @@
 </head>
 
 <body>
-  <!-- Container -->
-  <div class="container">
 
   <!-- Header-->
   <header>
-    <img src="./resources/images/ic-logo.svg"/>
-    <a href="index.html" class="desktop logo"><strong>Colmar</strong>Academy</a>
+    <div id="logo">
+      <img src="./resources/images/ic-logo.svg"/>
+      <a href="index.html" class="desktop"><strong>Colmar</strong>Academy</a>
+    </div>
     <nav class="desktop">
       <ul>
         <li>On Campus</li>
@@ -32,12 +32,12 @@
 
   <!-- Banner -->
   <div id="banner-section">
-    <div class="right">
+    <div class="left">
       <div class="image-container">
         <img src="./resources/images/banner.jpg"/>
       </div>
     </div>
-    <div id="header-text">
+    <div class="content">
       <h1>Learn Something New Everyday</h1>
       <h2>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</h2>
       <div class="button">
@@ -48,7 +48,7 @@
 
   <!-- Featured Section-->
   <div id="featured-section">
-    <div class="right desktop">
+    <div class="left desktop">
       <div class="image-container">
         <img src="./resources/images/information-main.jpg"/>
       </div>
@@ -59,7 +59,7 @@
           right at the coast of the Semantics, a large language ocean. </br> Emanuel, Sr. Strategist at Hiring.com </p>
       </div>
     </div>
-    <div class="left desktop">
+    <div class="right desktop">
       <div class="feature">
         <div class="image-container">
           <img src="./resources/images/information-orientation.jpg"/>
@@ -80,21 +80,19 @@
           <a href="#">Read More</a>
         </div>
       </div>
-      <div class="feature">
+      <div class="feature gray">
         <div class="image-container">
           <img src="./resources/images/information-guest-lecture.jpg"/>
         </div>
         <div class="content">
-          <div class="gray">
-            <h2>Our Guest Lecture</h2>
-            <p>Join a lecture with John Doe about music in medical treatment</p>
-            <a href="#">Read More</a>
-          </div>
+          <h2>Our Guest Lecture</h2>
+          <p>Join a lecture with John Doe about music in medical treatment</p>
+          <a href="#">Read More</a>
         </div>
       </div>
     </div>
 
-    <div class="left mobile">
+    <div class="right mobile">
       <div class="feature">
         <div class="image-container">
           <img src="./resources/images/information-orientation-mobile.jpg"/>
@@ -130,11 +128,9 @@
     </div>
   </div>
 
-  <!-- Close Container-->
-  </div>
 
   <!-- Start Learning-->
-  <div id="learning desktop">
+  <div id="learning-desktop">
     <h1>Start Learning</h1>
     <div class="course">
       <div class="image-container">
@@ -192,7 +188,7 @@
     </div>
   </div>
 
-  <div id="learning mobile">
+  <div id="learning-mobile">
     <nav>
       <ul>
         <li><a href="#">Software Engineering</a></li>
@@ -205,13 +201,13 @@
     </nav>
   </div>
 
-  <!-- Container -->
-  <div class="container">
 
   <!-- Thesis Exhibit-->
-  <div id="thesis-exhibit">
+  <div id="thesis-title">
     <h1>Thesis Exhibit</h1>
-    <div class="right">
+  </div>
+  <div id="thesis-exhibit">
+    <div class="left">
       <div class="image-container">
         <video controls>
           <source src="./resources/videos/thesis.mp4" type="video/mp4">
@@ -225,16 +221,14 @@
           right at the coast of the Semantics, a large language ocean. </p>
       </div>
     </div>
-    <div class="left">
-      <div class="feature">
+    <div class="right">
+      <div class="feature gray">
         <div class="image-container">
           <img src="./resources/images/thesis-fisma.jpg"/>
         </div>
         <div class="content">
-          <div class="gray">
-            <h2>Fisma: Design and Prototype</h2>
-            <p>Designer showcase of ptotoype product</p>
-          </div>
+          <h2>Fisma: Design and Prototype</h2>
+          <p>Designer showcase of ptotoype product</p>
         </div>
       </div>
       <div class="feature">
@@ -250,7 +244,7 @@
   </div>
 
   <!-- Footer-->
-  <div id="footer">
+  <footer>
     <div class="desktop">
       <p>2016 Colmar Academy. All Rights Reserved.</p>
     </div>
@@ -258,10 +252,7 @@
       <a href="#">Terms</a>
       <a href="#">Privacy</a>
     </div>
-  </div>
-
-  <!-- Close Container-->
-  </div>
+  </footer>
 
 </body>
 

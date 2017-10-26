@@ -92,8 +92,8 @@ header .mobile {
 
 #banner-section .button {
   background-color: #4a4a4a;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   width: 75%;
   text-align: center;
 }
@@ -116,8 +116,16 @@ header .mobile {
 
   #banner-section .button {
     background-color: darkgray;
+    width: 100%;
   }
 
+  #banner-section .content {
+    padding-right: 1rem;
+  }
+
+  #banner-section .button a {
+    font-weight: 700;
+  }
 }
 
 /* Featured */
@@ -144,6 +152,7 @@ header .mobile {
   display: flex;
   align-items: center;
   border-bottom: 1px solid lightgray;
+  width: 100%;
 }
 
 .right .feature .image-container {
@@ -186,6 +195,7 @@ header .mobile {
 
   #featured-section .right {
     border-left: none;
+    margin-top: 2rem;
   }
 
   .right .feature {
@@ -197,15 +207,14 @@ header .mobile {
   .right .feature .image-container {
     width: 100%;
     height: auto;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 0;
   }
 
   .right .feature .content {
     width: 100%;
     padding-left: 1rem;
     padding-right: 1rem;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
   }
 
   .gray {
@@ -261,6 +270,30 @@ header .mobile {
   #learning-mobile {
     display: block;
     border: 1px solid lightgray;
+  }
+
+  #learning-mobile h1 {
+    text-align: center;
+  }
+
+  #learning-mobile nav {
+    margin-bottom: 2rem;
+  }
+
+  #learning-mobile nav li {
+    list-style-type: none;
+    background-color: lightgray;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    margin-bottom: 0.5rem;
+    margin-right: 2rem;
+  }
+
+  #learning-mobile a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #4A4A4A;
   }
 }
 
@@ -324,4 +357,15 @@ footer a {
   text-decoration: none;
   color: #737373;
   padding-left: 1rem;
+}
+
+@media only screen and (max-width: 480px) {
+  footer .desktop {
+    display: none;
+  }
+
+  footer {
+    border: none;
+    padding-top: 1.5rem;
+  }
 }
